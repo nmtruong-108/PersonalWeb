@@ -1,0 +1,104 @@
+/* styles.css */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f1f8f6;
+}
+
+header {
+    background-color: #00bcd4;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.avatar-wrapper {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+ul li a:hover {
+    color: darkblue;
+}
+
+main {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#exercises {
+    background-color: #fff;
+}
+
+h2 {
+    color: #333;
+}
+
+h2:hover {
+    color: red;
+}
+
+.exercise-frames {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.exercise-frame {
+    width: 200px;
+    height: 200px;
+    border: 3px solid #00b0ff;
+    margin: 10px;
+}
+
+.img {
+    width: 200px;
+    height: 200px;
+    border: 3px solid #00b0ff;
+    margin: 10px;
+}
+
+.exercise-frames img:hover,
+.exercise-frame:hover {
+    border: 3px solid red;
+}
